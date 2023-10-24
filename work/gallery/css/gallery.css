@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button {
+	border: none;
+}
+
+
+@font-face {
+    font-family: roboto;
+    src:url('../font/Roboto-Regular.ttf');
+}
+
+
+body {
+	background-color: #eaeaea;
+	font-family: roboto;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	height: 65px;
+	padding-right: 1em;
+
+	border-bottom: .1rem solid black;
+
+}
+
+.nav .menu {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*align-items: center;*/
+}
+
+.nav .menu span {
+	background-color: black;
+	display: inline-block;
+	height: 2px;
+
+
+}
+
+.nav .menu span:nth-child(1) {
+	width: 100%;
+	margin-top: 13px;
+}
+
+.nav .menu span:nth-child(2) {
+	width: 75%;
+	margin-top: 3px;
+}
+
+.box-button {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	width: 180px;
+
+	
+}
+
+.box-button span {
+		display: inline-block;
+}
+
+.nav .circle-button {
+	height: 40px;
+	width: 40px;
+	background-color: darkgrey;
+	border-radius: 50%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav #button {
+	width: 120px;
+	height: 40px;
+	border-radius: 5%;
+	color: white;
+	background-color: #141414;
+}
+
+.nav .circle-button span {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	border: 3px solid #141414;
+
+}
+
+.container {
+	height: 300px;
+	width: 100%;
+	position: relative;
+	border-bottom: .1rem solid black;
+}
+
+.container h1 {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+
+	font-size: 5em;
+}
+
+.box {
+	width: 100%;
+	height: 
+}
+
+
